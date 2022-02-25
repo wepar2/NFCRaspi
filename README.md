@@ -44,7 +44,6 @@ install pip spidev mfrc522 mysql.connector datetime
 | 3.3v | connects to Pin 1 |
 
 | RGB LED |
-| ----- | ----------------- |
 | DATE | GPIO pins |
 | ----- | ----------------- |
 | RED | connects to Pin 33 - GPIO 13 |
@@ -52,6 +51,8 @@ install pip spidev mfrc522 mysql.connector datetime
 | GREEN | connects to Pin 35 - GPIO 19 |
 | BLUE | connects to Pin 37 - GPIO 26 |
 
+| DATE | GPIO pins |
+| ----- | ----------------- |
 | GND | connects to Pin 6 |
 | IN1 | connects to Pin 38 – GPIO 20 |
 | IN2 | connects to Pin 36 - GPIO 16 |
