@@ -1,0 +1,763 @@
+/* 
+
+Theme Name: Login
+Version: 1.0
+Author: Fernando Duran
+
+100    Thin, Hairline
+200    Extra Light, Ultra Light
+300    Light, Book, Demi
+400    Normal, Regular
+500    Medium
+600    Semi Bold, Demi Bold
+700    Bold
+800    Extra Bold, Ultra Bold
+900    Black, Heavy
+
+*/
+
+/************************ TAGS ************************/
+	body{
+		background-color: #ffffff;
+	}
+
+	body, *{
+		font-family: "Helvetica";
+	}
+
+	main{
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	button, input{
+            outline: none;
+	}
+/************************ HEADER ************************/
+/************************ MENU ************************/
+/************************ CONTENT ************************/
+	/*Ventana Login*/
+		.imagen{
+                    background-color: red;
+                    width: 300px;
+                    height: 300px;
+                    position: relative;
+		}
+
+		.contenform{
+                    text-align: center;
+                    padding-bottom: 40px;
+			
+		}
+
+		.formulario{
+                    margin-left: auto;
+                    margin-right: auto;
+		}
+
+		.text{
+                    color: #1B2733;
+		    font-size: 20px;
+		    font-weight: 400;
+		}
+
+		.subText{
+                    color: #838E99;
+                    font-weight: 300;
+		}
+
+		.grueso{
+                    font-weight: 900;
+		}
+
+		.file{
+                    height: 125px;
+                    margin-bottom: 15px;
+		}
+
+		.rojoAsterisco{
+                    color: #c0392b;
+
+		}
+
+		/*Boton Descarga*/
+                    .down{
+                        font-weight: 500;
+                        font-size: 15px;
+                    }	
+
+                    .btn-Des{
+                        padding: 7px 20px 7px 20px;
+                        color: #354851;
+                        background-color: #F2B60D;
+                        border-radius: 6px; 
+                        box-shadow: none;
+                        border: none;
+                    }
+
+                /*Vista Confirmacion*/
+		
+		.posiBoton{
+                    top: 0;
+		    position: absolute;
+		    right: 0;
+		}
+
+		input#correoUserlogin {
+		    padding-left: 7px;
+		}
+		input#passlogin {
+		    padding-left: 7px;
+		}
+
+		.link{
+                    margin-top: 20px;
+		}
+
+		a{
+                    padding: 10px 25px 10px 25px;
+                    color: #000000;
+                    background-color: #cacaca;
+                    border-radius: 6px;
+                    text-decoration:none;
+		}
+		a:hover{
+                    color: #000000;
+                    background-color: #A0A098;
+                    text-decoration:none;
+		}
+		
+
+		.btn-default{
+                    margin-bottom: 20px;
+		}
+
+		.imgOK{
+                    height: 100px;
+		}
+		
+
+		input[type=tel].codeTEXT{
+                    max-width: 100px;
+                    margin-bottom: 65px;
+                    font-size: 25px;
+                    height: 45px;
+		}
+
+		.textMovil{
+                    color: #1B2733;
+		    font-size: 20px;
+		    font-weight: 400;
+                    margin-bottom: 20px;
+		}
+
+		#verificar{
+                    width: inherit;
+		    background-color: #5B86D3;
+		    color: white;
+		    padding: 10px 25px 10px 25px;
+		    margin: 0px 0 0 20px; 
+		    border: none; 
+		    border-radius: 4px;
+		    cursor: pointer;
+		    position: relative;
+		    top: -3px;
+		}
+
+		#verificar:hover{
+			background: #3B5CAC;
+		}
+
+		/*Ventana de confirmacion*/
+		.textoCorreo
+		{
+                    font-size: 17px;
+		}
+
+		.enlaceLogin
+		{
+                    padding: 7px 20px 7px 20px;
+		    color: #354851;
+		    background-color: #F2B60D;
+		    border-radius: 6px;
+		    box-shadow: none;
+		    border: none;
+		}
+                /*Barra Nav Menu, Barra navegacion, Barra Menu*/
+                    
+                    .navbar{
+                        margin-bottom: 50px;
+                    }               
+                
+                    .navbar-default {
+                        background-color: #ffffff00;
+                        border-color: #ffffff00;
+                    }
+                    
+                    .navbar-brand {
+                        height: initial;
+                        background-color: #435d8700;
+                    }
+                    .navbar-default .navbar-brand:hover {
+                        background-color: #ffffff;
+                    }
+
+                    .navbar-brand > img{
+                        width: 145px;
+                        padding-bottom: 6px;
+                    }
+                    
+                    .navbar-default .navbar-nav>li>a{
+                        padding: 30px;
+                        background-color: #435D87;
+                        color: #FFFFFF;
+                    }
+                    
+                    .navbar-default .navbar-nav>.active>a{
+                        padding: 30px;
+                        color: #ffffff;
+                        background-color: #242938;
+                    }
+                    .navbar-default .navbar-nav>li>a:hover{
+                        background-color: #5b78a6;
+                        color: #ffffff;
+                    }
+                    .navbar-default .navbar-nav>li>a:focus{
+                        background-color: #334766;
+                        color: #ffffff;
+                    }
+                    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+                        color: #FFFFFF;
+                        background-color: #334766;
+                        
+                    }
+                    
+                    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a{
+                      /*padding-left: 40px;*/
+                        padding-right: 40px;
+                        margin-left: 2px;
+                    }
+
+                
+                /*Para Usuario admin*/
+                
+                    .removeRow
+                    {
+                        background-color: #FF0000;
+                        color:#FFFFFF;
+                    }
+
+                    input#editInput
+                    {
+                        padding-left: 7px;
+                    }
+
+                    .login{
+                        margin-bottom: 10px;
+                    }
+                
+                /*Tabla*/
+                
+                    .masADD{
+                        border: 0;
+                        background: transparent;
+                    }
+                    .masADD > img{
+                        width: 35px;
+                        margin-bottom: 10px;
+                        margin-left: 10px; 
+                    }
+
+
+
+                    label.labelnone{
+                        float: none;
+                    }
+
+                    .centradoCO{
+                        text-align: center;
+                    }
+
+                    .columnedit td{
+                        background-color: #9fe0ac;
+
+                        transition-duration: 0.3s;
+                    }
+                
+                /*modal registro zona admin*/
+                
+                
+                
+                /*Email*/
+                    .correo{
+                        background-color: inherit;
+                        padding: 0;
+                    }
+                    .correo:hover{
+                        background-color: inherit;
+                    }
+                
+/************************ FOOTER ************************/
+
+/************************ UsuariosWebs ************************/
+    .LogoConTitulo{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .LogoConTitulo > h3{
+        display: inline-block;
+        padding-left: 20px;
+    }
+    
+    
+
+/************************ MODAL ************************/
+    .modal-content {
+    background-color: #eeb411fc;
+    }
+    .modal-header {
+    border-bottom: 0px;
+    }
+
+    .adminModal{
+        background-color: rgba(65, 70, 71, 0.68);
+    }
+
+    /*boton de admin si o no*/
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 34px;
+      }
+
+      .slider.round:before {
+        border-radius: 50%;
+      }
+
+    .adminZI{
+        display: inline-block;
+    }
+    /*FIN DEL BOTON ADMIN SI O NO*/
+
+    .colorTextadmin{
+        color: #ffffff;
+    }
+
+    .form_group{
+            position: relative;
+    }
+
+    .telefDI{
+            margin-top: 15px;
+    }
+
+    .text-danger{
+            text-align: left;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 12px 20px 12px 54px;
+    }
+
+    input[type=password], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 12px 20px 12px 54px;
+    }
+
+    input[type=tel] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 12px 20px 12px 54px;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 12px 20px 12px 54px;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    button[type=submit] {
+      width: 35%;
+      background-color: #5B86D3;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    
+
+    .from_group{
+            position: relative;
+
+    }
+
+    .imgForm{
+            position: absolute;
+            max-height: 25px;
+        max-width: 25px;
+        margin-top: 3px;
+        left: 13px;
+    top: 14px;
+    }
+
+    /*
+    button[type=submit]:hover {
+      background-color: #3B5CAC;
+    }
+    */
+
+    .textNecesario{
+            text-align: left;
+    }
+
+    label{
+            float: left;
+    }
+
+    label > .labelnone{
+            float: none;
+    }
+
+    .boxlabel{
+            display: inline-block;
+        position: absolute;
+        left: 0;
+        width: 50px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .boxlabel > img{
+            position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        max-width: 28px;
+        max-height: 24px;
+
+
+    }
+
+    .form-message{
+            color: #c0392b;
+    }
+
+    /************************ Modal Descarga ************************/
+    
+        .modalup{
+            text-align: center;
+        }
+
+        .upload{
+            color: #FFFFFF
+        }
+
+        input[type=file] {
+            text-align: center;
+            display: block;
+            margin-left: 113px;
+            margin-bottom: 20px;
+        }
+        
+        button[type="file"]{
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 4px;
+        }
+
+/************************ ERROR ************************/
+
+
+	input.invalid, textarea.invalid{
+		border: 2px solid #c0392b;
+	}
+		
+	input.valid, textarea.valid{
+		border: 2px solid #27ae60;
+	}
+	.error{
+		display: none;
+		margin-left: 10px;
+	}
+        
+        .error404Text{
+            font-size: 50px;
+            text-align: center;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+/************************ iCard ************************/
+    .card{
+        border-radius: 22px;
+        overflow: hidden;
+    }
+    
+    .card-price{
+        background-color: #d0fcff36;
+    }
+    
+    .datosMas{
+        font-weight: 600;
+        color: #000;
+    }
+    .nombreCard > p{
+        color: #428dff;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .reglon{
+        background-color: #428dff;
+        padding: 7px;
+        margin-top: 20px;
+    }
+    
+    .reglonFINAL{
+        background-color: #428dff;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .reglonFINAL img{
+        margin-left: 10px;
+    }
+    
+    .imgReglon{
+        width: 20px;
+    }
+    
+    .imgReglonN{
+        width: 30px;
+    }
+    
+    p.titleCard {
+        margin: 0;
+    }
+    
+    .titleCard{
+        color: #ffffff;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .colDER{
+        text-align: right;
+    }
+    
+    .colIZQ{
+        text-align: left;
+        padding: 0;
+    }
+    .fileICA{
+        height: 125px;
+        margin-bottom: 15px;
+        margin-top: 40px;
+        border-radius: 50%;
+    }
+    .imgFile{
+        width: 165px;
+        height: 165px;
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+    
+    .fileICA:hover{
+       cursor: pointer;
+    }
+    
+    .table_data{
+        cursor: pointer;
+    }
+    
+    .activoTE{
+        margin-top: 8px;
+    }
+    
+    .botonX {
+        background-color: #0000;
+        border: none;
+        float: right;
+        margin: -2px;
+    }
+    
+    .fileX{
+        width: 20px;
+    }
+    
+    #postList{ 
+    margin-bottom:20px;
+    }
+    .list-item {
+        background-color: #F1F1F1;
+        margin: 5px 15px 2px;
+        padding: 2px;
+        font-size: 14px;
+        line-height: 1.5;
+        height: 120px;
+    }
+    .list-item h4 {
+        color: #0074a2;
+        margin-left: 10px;
+    }
+    .load-more {
+        margin: 15px 25px;
+        cursor: pointer;
+        padding: 10px 0;
+        text-align: center;
+        font-weight:bold;
+    }
+/************************ Alertas ***************************/
+
+.swal2-popup{
+    font-size: 1.25em;
+}
+
+/************************ Responsive ************************/
+
+/*@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+}*/
+
+
+
+@media (max-width: 770px){
+    .navbar-nav {
+        margin-left: -19px;
+    }    
+}
+
+@media (max-width: 500px){
+    .posiBoton {
+        top: -20px;
+        right: -18px;
+    }    
+}
+
+
+@media (max-height: 765px){
+    .posiBoton {
+        right: -50px;
+    }
+    
+    .cardIDF {
+        margin-left: 125px;
+        margin-right: 125px;
+    }  
+}
+
+
+@media (max-width: 767px){
+    .cardIDF {
+        margin-left: 7px;
+        margin-right: 7px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }    
+}
+
+@media (max-width: 640px){
+    .cardIDF {
+        margin-left: 7px;
+        margin-right: 7px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }    
+}

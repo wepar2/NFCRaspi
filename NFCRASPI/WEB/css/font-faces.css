@@ -1,0 +1,69 @@
+/* 
+   _  ___         
+| |/ (_) |__  ___
+| ' <| | '_ \/ _ \
+|_|\_\_|_.__/\___/
+
+KIBO STUDIOS // ADVERTISING ® 2018
+This file was originally created by KIBO.
+No public diffusion allowed. Code rights reserved.
+Contact us info@kibostudios.com
+www.kibostudios.com
+
+100    Thin, Hairline
+200    Extra Light, Ultra Light
+300    Light, Book, Demi
+400    Normal, Regular
+500    Medium
+600    Semi Bold, Demi Bold
+700    Bold
+800    Extra Bold, Ultra Bold
+900    Black, Heavy
+
+*/
+
+/************************ Light ************************/
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Oblique.eot');
+    src: url('Helvetica-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Oblique.woff') format('woff'),
+        url('Helvetica-Oblique.ttf') format('truetype'),
+        url('Helvetica-Oblique.svg#Helvetica-Oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Light.eot');
+    src: url('Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Light.woff') format('woff'),
+        url('Helvetica-Light.ttf') format('truetype'),
+        url('Helvetica-Light.svg#Helvetica-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Bold.eot');
+    src: url('Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Bold.woff') format('woff'),
+        url('Helvetica-Bold.ttf') format('truetype'),
+        url('Helvetica-Bold.svg#Helvetica-Bold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
