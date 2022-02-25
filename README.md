@@ -31,7 +31,8 @@ If you have a recent version of Python 3, you should be able to do pip install s
 
 install pip spidev mfrc522 mysql.connector datetime
 
-
+| MFRC522 |
+| ----- | ----------------- |
 | DATE | GPIO pins |
 | ----- | ----------------- |
 | SDA | connects to Pin 24 |
@@ -41,6 +42,29 @@ install pip spidev mfrc522 mysql.connector datetime
 | GND | connects to Pin 6 |
 | RST | connects to Pin 22 |
 | 3.3v | connects to Pin 1 |
+
+| RGB LED |
+| ----- | ----------------- |
+| DATE | GPIO pins |
+| ----- | ----------------- |
+| RED | connects to Pin 33 - GPIO 13 |
+| GND | - GPIO 6 |
+| GREEN | connects to Pin 35 - GPIO 19 |
+| BLUE | connects to Pin 37 - GPIO 26 |
+
+| GND | connects to Pin 6 |
+| IN1 | connects to Pin 38 – GPIO 20 |
+| IN2 | connects to Pin 36 - GPIO 16 |
+| VCC | connects to Pin 2 |
+
+| LCD 16 X 2|
+| ----- | ----------------- |
+| DATE | GPIO pins |
+| ----- | ----------------- |
+| GND | connects to Pin 6 |
+| VCC | connects to Pin 2 |
+| SDA | connects to Pin 3 – GPIO 2 |
+| SCL | connects to Pin 5 – GPIO 3 |
 
 ## Flow
 ![NFC Register Card](./flujo.png "NFC Register Card")
