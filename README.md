@@ -10,10 +10,10 @@ The RFID RC522 is a very low-cost RFID (Radio-frequency identification) reader a
 
 Wiring your RFID RC522 to your Raspberry Pi is fairly simple, with it requiring you to connect just 7 of the GPIO Pins directly to the RFID reader. Follow the table below, and check out our GPIO guide to see the positions of the GPIO pins that you need to connect your RC522 to.
 
-[![RFID RC522].(https://m.media-amazon.com/images/I/61rLVXkbaJL._SL1500_.jpg)]
+[![RFID RC522](https://m.media-amazon.com/images/I/61rLVXkbaJL._SL1500_.jpg)]
 
 | DATE | GPIO pins |
-| ------------------- | ---------------------------------------------------------------------- |
+| ----- | ----------------- |
 | SDA | connects to Pin 24 |
 | SCK | connects to Pin 23 |
 | MOSI | connects to Pin 19 |
@@ -22,7 +22,7 @@ Wiring your RFID RC522 to your Raspberry Pi is fairly simple, with it requiring 
 | RST | connects to Pin 22 |
 | 3.3v | connects to Pin 1 |
  
-[![GPIO Raspberry].(https://pimylifeup.com/wp-content/uploads/2017/10/RFID-Fritz-v2.png)]
+[![GPIO Raspberry](https://pimylifeup.com/wp-content/uploads/2017/10/RFID-Fritz-v2.png)]
 
 # Flow
 ![NFC Register Card](./flujo.png "NFC Register Card")
