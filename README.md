@@ -42,6 +42,7 @@ install pip spidev mfrc522 mysql.connector datetime
 | GND | connects to Pin 6 |
 | RST | connects to Pin 22 |
 | 3.3v | connects to Pin 1 |
+![GPIO Raspberry](https://pimylifeup.com/wp-content/uploads/2017/10/RFID-Fritz-v2.png)
 
 ***RGB LED***
 
@@ -67,6 +68,9 @@ install pip spidev mfrc522 mysql.connector datetime
 | VCC | connects to Pin 2 |
 | SDA | connects to Pin 3 – GPIO 2 |
 | SCL | connects to Pin 5 – GPIO 3 |
+
+
+![Final Installation](./RaspiNFC.png "Final Installation")
 
 ## Flow
 ![NFC Register Card](./flujo.png "NFC Register Card")
