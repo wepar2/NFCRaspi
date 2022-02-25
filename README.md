@@ -31,8 +31,8 @@ If you have a recent version of Python 3, you should be able to do pip install s
 
 install pip spidev mfrc522 mysql.connector datetime
 
-| MFRC522 |
-| ----- | ----------------- |
+***MFRC522***
+
 | DATE | GPIO pins |
 | ----- | ----------------- |
 | SDA | connects to Pin 24 |
@@ -43,7 +43,8 @@ install pip spidev mfrc522 mysql.connector datetime
 | RST | connects to Pin 22 |
 | 3.3v | connects to Pin 1 |
 
-| RGB LED |
+***RGB LED***
+
 | DATE | GPIO pins |
 | ----- | ----------------- |
 | RED | connects to Pin 33 - GPIO 13 |
@@ -51,6 +52,7 @@ install pip spidev mfrc522 mysql.connector datetime
 | GREEN | connects to Pin 35 - GPIO 19 |
 | BLUE | connects to Pin 37 - GPIO 26 |
 
+***RELAY***
 | DATE | GPIO pins |
 | ----- | ----------------- |
 | GND | connects to Pin 6 |
@@ -58,8 +60,7 @@ install pip spidev mfrc522 mysql.connector datetime
 | IN2 | connects to Pin 36 - GPIO 16 |
 | VCC | connects to Pin 2 |
 
-| LCD 16 X 2|
-| ----- | ----------------- |
+***LCD 16 X 2***
 | DATE | GPIO pins |
 | ----- | ----------------- |
 | GND | connects to Pin 6 |
